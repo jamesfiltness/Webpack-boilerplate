@@ -1,17 +1,18 @@
 import React, { Component, PropTypes } from 'react'
+import styles from '../../css/main.css'
 
 export default class App extends Component {
-    
-    someMethod() {
-        var test = 'monkey';
-    }
 
     render() {
         return (
-           <h1 className="heading">Hello World!</h1>
+           <h1 className={styles.heading}>Hello World!</h1>
         )
     }
 }
+
+
+
+
 
 
 
